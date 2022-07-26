@@ -1,0 +1,468 @@
+GPU Memory Track | 11-Jul-22-12:05:55 | Total Used Memory:1055.8 Mb
+
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 101 * Size:(96,)                | Memory: 0.0387 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(1, 400, 96)         | Memory: 0.3072 M | <class 'torch.Tensor'>
++ | 404 * Size:(96, 96)             | Memory: 14.893 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:1055.8 Mb
+
++ | 1 * Size:(1, 1, 400, 96)      | Memory: 0.1536 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 400, 256)     | Memory: 0.8192 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 3 * Size:(1, 400, 96)         | Memory: 0.4608 M | <class 'torch.Tensor'>
+- | 2 * Size:(1, 400, 96)         | Memory: 0.3072 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:1057.9 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:55 | Total Used Memory:1078.9 Mb
+
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 102 * Size:(96,)                | Memory: 0.0391 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 400, 96)         | Memory: 0.1536 M | <class 'torch.Tensor'>
++ | 408 * Size:(96, 96)             | Memory: 15.040 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 3600, 96)        | Memory: 1.3824 M | <class 'torch.Tensor'>
+
+At performer __init__: line 243                      Total Used Memory:1078.9 Mb
+
++ | 2 * Size:(1, 3600, 96)        | Memory: 2.7648 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 3600, 96)     | Memory: 1.3824 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 3600, 256)    | Memory: 7.3728 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 3600, 96)        | Memory: 1.3824 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:1099.8 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:55 | Total Used Memory:1120.8 Mb
+
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 103 * Size:(96,)                | Memory: 0.0395 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 10000, 96)       | Memory: 3.84 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 3600, 96)        | Memory: 1.3824 M | <class 'torch.Tensor'>
++ | 412 * Size:(96, 96)             | Memory: 15.187 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:1120.8 Mb
+
++ | 1 * Size:(1, 1, 10000, 96)    | Memory: 3.84 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 10000, 96)       | Memory: 7.68 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 10000, 256)   | Memory: 20.48 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 10000, 96)       | Memory: 3.84 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:1162.7 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:55 | Total Used Memory:1204.7 Mb
+
++ | 104 * Size:(96,)                | Memory: 0.0399 M | <class 'torch.nn.parameter.Parameter'>
++ | 416 * Size:(96, 96)             | Memory: 15.335 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 10000, 96)       | Memory: 3.84 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 19600, 96)       | Memory: 7.5264 M | <class 'torch.Tensor'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:1204.7 Mb
+
++ | 1 * Size:(1, 1, 19600, 96)    | Memory: 7.5264 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 19600, 256)   | Memory: 40.140 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 19600, 96)       | Memory: 15.052 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 19600, 96)       | Memory: 7.5264 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:1288.6 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:56 | Total Used Memory:1355.7 Mb
+
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 32400, 96)       | Memory: 12.441 M | <class 'torch.Tensor'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 105 * Size:(96,)                | Memory: 0.0403 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 19600, 96)       | Memory: 7.5264 M | <class 'torch.Tensor'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 420 * Size:(96, 96)             | Memory: 15.482 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:1355.7 Mb
+
++ | 2 * Size:(1, 32400, 96)       | Memory: 24.883 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 32400, 256)   | Memory: 66.355 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 32400, 96)    | Memory: 12.441 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 32400, 96)       | Memory: 12.441 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:1473.1 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:56 | Total Used Memory:1586.4 Mb
+
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 32400, 96)       | Memory: 12.441 M | <class 'torch.Tensor'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 48400, 96)       | Memory: 18.585 M | <class 'torch.Tensor'>
++ | 106 * Size:(96,)                | Memory: 0.0407 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 424 * Size:(96, 96)             | Memory: 15.630 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:1586.4 Mb
+
++ | 1 * Size:(1, 1, 48400, 96)    | Memory: 18.585 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 48400, 96)       | Memory: 37.171 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 48400, 256)   | Memory: 99.123 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 48400, 96)       | Memory: 18.585 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:1687.0 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:56 | Total Used Memory:1848.5 Mb
+
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 48400, 96)       | Memory: 18.585 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 67600, 96)       | Memory: 25.958 M | <class 'torch.Tensor'>
++ | 428 * Size:(96, 96)             | Memory: 15.777 M | <class 'torch.nn.parameter.Parameter'>
++ | 107 * Size:(96,)                | Memory: 0.0410 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:1848.5 Mb
+
++ | 2 * Size:(1, 1, 67600, 256)   | Memory: 138.44 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 67600, 96)       | Memory: 51.916 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 67600, 96)    | Memory: 25.958 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 67600, 96)       | Memory: 25.958 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:2072.9 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:57 | Total Used Memory:2284.7 Mb
+
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 108 * Size:(96,)                | Memory: 0.0414 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 67600, 96)       | Memory: 25.958 M | <class 'torch.Tensor'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 432 * Size:(96, 96)             | Memory: 15.925 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 90000, 96)       | Memory: 34.56 M | <class 'torch.Tensor'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:2284.7 Mb
+
++ | 1 * Size:(1, 1, 90000, 96)    | Memory: 34.56 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 90000, 256)   | Memory: 184.32 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 90000, 96)       | Memory: 69.12 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 90000, 96)       | Memory: 34.56 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:2576.2 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:57 | Total Used Memory:2850.9 Mb
+
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 115600, 96)      | Memory: 44.390 M | <class 'torch.Tensor'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 436 * Size:(96, 96)             | Memory: 16.072 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 90000, 96)       | Memory: 34.56 M | <class 'torch.Tensor'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 109 * Size:(96,)                | Memory: 0.0418 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:2850.9 Mb
+
++ | 2 * Size:(1, 1, 115600, 256)  | Memory: 236.74 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 115600, 96)      | Memory: 88.780 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 115600, 96)   | Memory: 44.390 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 115600, 96)      | Memory: 44.390 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:3228.4 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:58 | Total Used Memory:3572.4 Mb
+
++ | 1 * Size:(1, 144400, 96)      | Memory: 55.449 M | <class 'torch.Tensor'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 115600, 96)      | Memory: 44.390 M | <class 'torch.Tensor'>
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 440 * Size:(96, 96)             | Memory: 16.220 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 110 * Size:(96,)                | Memory: 0.0422 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:3572.4 Mb
+
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 144400, 96)   | Memory: 55.449 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 144400, 256)  | Memory: 295.73 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 144400, 96)      | Memory: 110.89 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 144400, 96)      | Memory: 55.449 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:4040.0 Mb
+
+GPU Memory Track | 11-Jul-22-12:05:59 | Total Used Memory:4461.6 Mb
+
++ | 1 * Size:(1, 144400, 96)      | Memory: 55.449 M | <class 'torch.Tensor'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 111 * Size:(96,)                | Memory: 0.0426 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 176400, 96)      | Memory: 67.737 M | <class 'torch.Tensor'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 444 * Size:(96, 96)             | Memory: 16.367 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:4461.6 Mb
+
++ | 1 * Size:(1, 1, 176400, 96)   | Memory: 67.737 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 176400, 256)  | Memory: 361.26 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 176400, 96)      | Memory: 135.47 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 176400, 96)      | Memory: 67.737 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:4895.7 Mb
+
+GPU Memory Track | 11-Jul-22-12:06:00 | Total Used Memory:5401.1 Mb
+
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 211600, 96)      | Memory: 81.254 M | <class 'torch.Tensor'>
++ | 2 * Size:(211600, 256)        | Memory: 433.35 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 448 * Size:(96, 96)             | Memory: 16.515 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 112 * Size:(96,)                | Memory: 0.0430 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 176400, 96)      | Memory: 67.737 M | <class 'torch.Tensor'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:5401.1 Mb
+
++ | 2 * Size:(1, 211600, 96)      | Memory: 162.50 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 211600, 256)  | Memory: 433.35 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 211600, 96)   | Memory: 81.254 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 211600, 96)      | Memory: 81.254 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:5919.1 Mb
+
+GPU Memory Track | 11-Jul-22-12:06:01 | Total Used Memory:6516.8 Mb
+
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 250000, 96)      | Memory: 96.0 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 211600, 96)      | Memory: 81.254 M | <class 'torch.Tensor'>
++ | 2 * Size:(211600, 256)        | Memory: 433.35 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(250000, 256)        | Memory: 512.0 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 113 * Size:(96,)                | Memory: 0.0433 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 452 * Size:(96, 96)             | Memory: 16.662 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:6516.8 Mb
+
++ | 2 * Size:(1, 250000, 96)      | Memory: 192.0 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 250000, 256)  | Memory: 512.0 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 250000, 96)   | Memory: 96.0 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 250000, 96)      | Memory: 96.0 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:7129.1 Mb
+
+GPU Memory Track | 11-Jul-22-12:06:02 | Total Used Memory:7825.4 Mb
+
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 250000, 96)      | Memory: 96.0 M | <class 'torch.Tensor'>
++ | 2 * Size:(211600, 256)        | Memory: 433.35 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 114 * Size:(96,)                | Memory: 0.0437 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(291600, 256)        | Memory: 597.19 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(250000, 256)        | Memory: 512.0 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 291600, 96)      | Memory: 111.97 M | <class 'torch.Tensor'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 456 * Size:(96, 96)             | Memory: 16.809 M | <class 'torch.nn.parameter.Parameter'>
+
+At performer __init__: line 243                      Total Used Memory:7825.4 Mb
+
++ | 1 * Size:(1, 1, 291600, 96)   | Memory: 111.97 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 291600, 256)  | Memory: 597.19 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 291600, 96)      | Memory: 223.94 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 291600, 96)      | Memory: 111.97 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:8538.4 Mb
+
+GPU Memory Track | 11-Jul-22-12:06:03 | Total Used Memory:9343.7 Mb
+
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(336400, 256)        | Memory: 688.94 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(291600, 256)        | Memory: 597.19 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(211600, 256)        | Memory: 433.35 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 115 * Size:(96,)                | Memory: 0.0441 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(250000, 256)        | Memory: 512.0 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 291600, 96)      | Memory: 111.97 M | <class 'torch.Tensor'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 460 * Size:(96, 96)             | Memory: 16.957 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 336400, 96)      | Memory: 129.17 M | <class 'torch.Tensor'>
+
+At performer __init__: line 243                      Total Used Memory:9343.7 Mb
+
++ | 2 * Size:(1, 336400, 96)      | Memory: 258.35 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 336400, 256)  | Memory: 688.94 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 336400, 96)   | Memory: 129.17 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 336400, 96)      | Memory: 129.17 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:10165.8Mb
+
+GPU Memory Track | 11-Jul-22-12:06:04 | Total Used Memory:11084.4Mb
+
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(384400, 256)        | Memory: 787.25 M | <class 'torch.nn.parameter.Parameter'>
++ | 116 * Size:(96,)                | Memory: 0.0445 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(336400, 256)        | Memory: 688.94 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(291600, 256)        | Memory: 597.19 M | <class 'torch.nn.parameter.Parameter'>
++ | 464 * Size:(96, 96)             | Memory: 17.104 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(211600, 256)        | Memory: 433.35 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(250000, 256)        | Memory: 512.0 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 384400, 96)      | Memory: 147.60 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 336400, 96)      | Memory: 129.17 M | <class 'torch.Tensor'>
+
+At performer __init__: line 243                      Total Used Memory:11084.4Mb
+
++ | 1 * Size:(1, 1, 384400, 96)   | Memory: 147.60 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 384400, 96)      | Memory: 295.21 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 384400, 256)  | Memory: 787.25 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 384400, 96)      | Memory: 147.60 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:9094.2 Mb
+
+GPU Memory Track | 11-Jul-22-12:06:06 | Total Used Memory:10136.5Mb
+
++ | 117 * Size:(96,)                | Memory: 0.0449 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(384400, 256)        | Memory: 787.25 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(336400, 256)        | Memory: 688.94 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(211600, 256)        | Memory: 433.35 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(291600, 256)        | Memory: 597.19 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(250000, 256)        | Memory: 512.0 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(435600, 256)        | Memory: 892.10 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 468 * Size:(96, 96)             | Memory: 17.252 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 435600, 96)      | Memory: 167.27 M | <class 'torch.Tensor'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 384400, 96)      | Memory: 147.60 M | <class 'torch.Tensor'>
+
+At performer __init__: line 243                      Total Used Memory:10136.5Mb
+
++ | 2 * Size:(1, 1, 435600, 256)  | Memory: 892.10 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 435600, 96)   | Memory: 167.27 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 435600, 96)      | Memory: 334.54 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 435600, 96)      | Memory: 167.27 M | <class 'torch.Tensor'> 
+
+At performer __init__: line 243                      Total Used Memory:11029.8Mb
+
+GPU Memory Track | 11-Jul-22-12:06:07 | Total Used Memory:9798.8 Mb
+
++ | 2 * Size:(144400, 256)        | Memory: 295.73 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(176400, 256)        | Memory: 361.26 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(384400, 256)        | Memory: 787.25 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(336400, 256)        | Memory: 688.94 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(211600, 256)        | Memory: 433.35 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(48400, 256)         | Memory: 99.123 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(3600, 256)          | Memory: 7.3728 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(291600, 256)        | Memory: 597.19 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(115600, 256)        | Memory: 236.74 M | <class 'torch.nn.parameter.Parameter'>
++ | 118 * Size:(96,)                | Memory: 0.0453 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(250000, 256)        | Memory: 512.0 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(67600, 256)         | Memory: 138.44 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(435600, 256)        | Memory: 892.10 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(32400, 256)         | Memory: 66.355 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(19600, 256)         | Memory: 40.140 M | <class 'torch.nn.parameter.Parameter'>
++ | 472 * Size:(96, 96)             | Memory: 17.399 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(90000, 256)         | Memory: 184.32 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(490000, 256)        | Memory: 1003.5 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 435600, 96)      | Memory: 167.27 M | <class 'torch.Tensor'>
++ | 202 * Size:(400, 256)           | Memory: 82.739 M | <class 'torch.nn.parameter.Parameter'>
++ | 2 * Size:(10000, 256)         | Memory: 20.48 M | <class 'torch.nn.parameter.Parameter'>
++ | 1 * Size:(1, 490000, 96)      | Memory: 188.16 M | <class 'torch.Tensor'>
+
+At performer __init__: line 243                      Total Used Memory:9798.8 Mb
+

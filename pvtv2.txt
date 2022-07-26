@@ -1,0 +1,339 @@
++ | 2 * Size:(1, 100, 96)         | Memory: 0.0768 M | <class 'torch.Tensor'>
+- | 3 * Size:(1, 100, 96)         | Memory: 0.1152 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 1, 96)        | Memory: 0.0007 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 100, 96)      | Memory: 0.0384 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 96)           | Memory: 0.0003 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 1, 96)     | Memory: 0.0007 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 100, 1)       | Memory: 0.0004 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:973.1  Mb
+
++ | 3 * Size:(1, 100, 96)         | Memory: 0.1152 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 1, 96)        | Memory: 0.0007 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 100, 96)      | Memory: 0.0384 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 96)           | Memory: 0.0003 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 1, 96)     | Memory: 0.0007 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 100, 1)       | Memory: 0.0004 M | <class 'torch.Tensor'>
+- | 2 * Size:(1, 100, 96)         | Memory: 0.0768 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:973.1  Mb
+
++ | 1 * Size:(1, 100, 96)         | Memory: 0.0384 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1600, 96)        | Memory: 0.6144 M | <class 'torch.Tensor'>
+- | 3 * Size:(1, 100, 96)         | Memory: 0.1152 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 1, 96)        | Memory: 0.0007 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 100, 96)      | Memory: 0.0384 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 96)           | Memory: 0.0003 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 1, 96)     | Memory: 0.0007 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 100, 1)       | Memory: 0.0004 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:973.1  Mb
+
++ | 2 * Size:(1, 1, 25, 96)       | Memory: 0.0192 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 25, 96)    | Memory: 0.0192 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 1600, 96)     | Memory: 0.6144 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 1600, 25)     | Memory: 0.16 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1600, 96)        | Memory: 1.2288 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 25, 96)          | Memory: 0.0096 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 1600, 96)        | Memory: 0.6144 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:975.2  Mb
+
++ | 1 * Size:(1, 4900, 96)        | Memory: 1.8816 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1600, 96)        | Memory: 0.6144 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 100, 96)         | Memory: 0.0384 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 25, 96)       | Memory: 0.0192 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 25, 96)    | Memory: 0.0192 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 1600, 96)     | Memory: 0.6144 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 1600, 25)     | Memory: 0.16 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1600, 96)        | Memory: 1.2288 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 25, 96)          | Memory: 0.0096 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:975.2  Mb
+
++ | 2 * Size:(1, 4900, 96)        | Memory: 3.7632 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 4900, 64)     | Memory: 1.2544 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 4900, 96)     | Memory: 1.8816 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 64, 96)          | Memory: 0.0245 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 64, 96)    | Memory: 0.0491 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 64, 96)       | Memory: 0.0491 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 4900, 96)        | Memory: 1.8816 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:975.2  Mb
+
++ | 1 * Size:(1, 4900, 96)        | Memory: 1.8816 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 10000, 96)       | Memory: 3.84 M | <class 'torch.Tensor'>
+- | 2 * Size:(1, 4900, 96)        | Memory: 3.7632 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 4900, 64)     | Memory: 1.2544 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 4900, 96)     | Memory: 1.8816 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 64, 96)          | Memory: 0.0245 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1600, 96)        | Memory: 0.6144 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 64, 96)    | Memory: 0.0491 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 64, 96)       | Memory: 0.0491 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:975.2  Mb
+
++ | 2 * Size:(1, 10000, 96)       | Memory: 7.68 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 144, 96)         | Memory: 0.0552 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 144, 96)   | Memory: 0.1105 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 144, 96)      | Memory: 0.1105 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 10000, 144)   | Memory: 5.76 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 10000, 96)    | Memory: 3.84 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 10000, 96)       | Memory: 3.84 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1017.1 Mb
+
++ | 1 * Size:(1, 10000, 96)       | Memory: 3.84 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 16900, 96)       | Memory: 6.4896 M | <class 'torch.Tensor'>
+- | 2 * Size:(1, 10000, 96)       | Memory: 7.68 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 144, 96)         | Memory: 0.0552 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 4900, 96)        | Memory: 1.8816 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 144, 96)   | Memory: 0.1105 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 144, 96)      | Memory: 0.1105 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 10000, 144)   | Memory: 5.76 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 10000, 96)    | Memory: 3.84 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1017.1 Mb
+
++ | 2 * Size:(1, 16900, 96)       | Memory: 12.979 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 16900, 96)    | Memory: 6.4896 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 16900, 256)   | Memory: 17.305 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 256, 96)         | Memory: 0.0983 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 256, 96)   | Memory: 0.1966 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 16900, 96)       | Memory: 6.4896 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1075.8 Mb
+
++ | 1 * Size:(1, 25600, 96)       | Memory: 9.8304 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 16900, 96)       | Memory: 6.4896 M | <class 'torch.Tensor'>
+- | 2 * Size:(1, 16900, 96)       | Memory: 12.979 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 10000, 96)       | Memory: 3.84 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 16900, 96)    | Memory: 6.4896 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 16900, 256)   | Memory: 17.305 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 256, 96)         | Memory: 0.0983 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 256, 96)   | Memory: 0.1966 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 256, 96)      | Memory: 0.1966 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1075.8 Mb
+
++ | 1 * Size:(1, 400, 96)         | Memory: 0.1536 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 25600, 96)       | Memory: 19.660 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 400, 96)   | Memory: 0.3072 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 400, 96)      | Memory: 0.3072 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 25600, 96)    | Memory: 9.8304 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 25600, 400)   | Memory: 40.96 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 25600, 96)       | Memory: 9.8304 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1180.7 Mb
+
++ | 1 * Size:(1, 25600, 96)       | Memory: 9.8304 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 36100, 96)       | Memory: 13.862 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 400, 96)         | Memory: 0.1536 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 25600, 96)       | Memory: 19.660 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 400, 96)   | Memory: 0.3072 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 400, 96)      | Memory: 0.3072 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 25600, 96)    | Memory: 9.8304 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 25600, 400)   | Memory: 40.96 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 16900, 96)       | Memory: 6.4896 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1180.7 Mb
+
++ | 1 * Size:(1, 1, 36100, 96)    | Memory: 13.862 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 529, 96)      | Memory: 0.4062 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 529, 96)         | Memory: 0.2031 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 36100, 96)       | Memory: 27.724 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 36100, 529)   | Memory: 76.387 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 529, 96)   | Memory: 0.4062 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 36100, 96)       | Memory: 13.862 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1350.6 Mb
+
++ | 1 * Size:(1, 36100, 96)       | Memory: 13.862 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 48400, 96)       | Memory: 18.585 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 1, 36100, 96)    | Memory: 13.862 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 25600, 96)       | Memory: 9.8304 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 529, 96)      | Memory: 0.4062 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 529, 96)         | Memory: 0.2031 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 36100, 96)       | Memory: 27.724 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 36100, 529)   | Memory: 76.387 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 529, 96)   | Memory: 0.4062 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1350.6 Mb
+
++ | 1 * Size:(1, 729, 96)         | Memory: 0.2799 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 48400, 96)    | Memory: 18.585 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 48400, 96)       | Memory: 37.171 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 729, 96)   | Memory: 0.5598 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 48400, 729)   | Memory: 141.13 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 729, 96)      | Memory: 0.5598 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 48400, 96)       | Memory: 18.585 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1635.8 Mb
+
++ | 1 * Size:(1, 62500, 96)       | Memory: 24.0 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 48400, 96)       | Memory: 18.585 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 729, 96)         | Memory: 0.2799 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 48400, 96)    | Memory: 18.585 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 48400, 96)       | Memory: 37.171 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 36100, 96)       | Memory: 13.862 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 729, 96)   | Memory: 0.5598 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 48400, 729)   | Memory: 141.13 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 729, 96)      | Memory: 0.5598 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:1635.8 Mb
+
++ | 1 * Size:(1, 1, 62500, 96)    | Memory: 24.0 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 62500, 96)       | Memory: 48.0 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 961, 96)   | Memory: 0.7380 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 961, 96)      | Memory: 0.7380 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 961, 96)         | Memory: 0.3690 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 62500, 961)   | Memory: 240.25 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 62500, 96)       | Memory: 24.0 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:2120.2 Mb
+
++ | 1 * Size:(1, 62500, 96)       | Memory: 24.0 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 78400, 96)       | Memory: 30.105 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 1, 62500, 96)    | Memory: 24.0 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 48400, 96)       | Memory: 18.585 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 62500, 96)       | Memory: 48.0 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 961, 96)   | Memory: 0.7380 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 961, 96)      | Memory: 0.7380 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 961, 96)         | Memory: 0.3690 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 62500, 961)   | Memory: 240.25 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:2120.2 Mb
+
++ | 1 * Size:(1, 1, 78400, 1225)  | Memory: 384.16 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 78400, 96)    | Memory: 30.105 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 1225, 96)  | Memory: 0.9408 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 1225, 96)     | Memory: 0.9408 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1225, 96)        | Memory: 0.4704 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 78400, 96)       | Memory: 60.211 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 78400, 96)       | Memory: 30.105 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:2892.0 Mb
+
++ | 1 * Size:(1, 78400, 96)       | Memory: 30.105 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 96100, 96)       | Memory: 36.902 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 1, 78400, 1225)  | Memory: 384.16 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 78400, 96)    | Memory: 30.105 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 1225, 96)  | Memory: 0.9408 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 62500, 96)       | Memory: 24.0 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 1225, 96)     | Memory: 0.9408 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1225, 96)        | Memory: 0.4704 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 78400, 96)       | Memory: 60.211 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:2892.0 Mb
+
++ | 1 * Size:(1, 1, 96100, 96)    | Memory: 36.902 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 1444, 96)     | Memory: 1.1089 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1444, 96)        | Memory: 0.5544 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 96100, 1444)  | Memory: 555.07 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 96100, 96)       | Memory: 73.804 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 1444, 96)  | Memory: 1.1089 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 96100, 96)       | Memory: 36.902 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:4003.5 Mb
+
++ | 1 * Size:(1, 115600, 96)      | Memory: 44.390 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 96100, 96)       | Memory: 36.902 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 1, 96100, 96)    | Memory: 36.902 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 1444, 96)     | Memory: 1.1089 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1444, 96)        | Memory: 0.5544 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 96100, 1444)  | Memory: 555.07 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 78400, 96)       | Memory: 30.105 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 96100, 96)       | Memory: 73.804 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 1444, 96)  | Memory: 1.1089 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:4003.5 Mb
+
++ | 2 * Size:(1, 1, 1764, 96)     | Memory: 1.3547 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 115600, 96)      | Memory: 88.780 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1764, 96)        | Memory: 0.6773 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 115600, 1764) | Memory: 815.67 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 115600, 96)   | Memory: 44.390 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 1764, 96)  | Memory: 1.3547 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 115600, 96)      | Memory: 44.390 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:5635.0 Mb
+
++ | 1 * Size:(1, 115600, 96)      | Memory: 44.390 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 136900, 96)      | Memory: 52.569 M | <class 'torch.Tensor'>
+- | 2 * Size:(1, 1, 1764, 96)     | Memory: 1.3547 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 96100, 96)       | Memory: 36.902 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 115600, 96)      | Memory: 88.780 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1764, 96)        | Memory: 0.6773 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 115600, 1764) | Memory: 815.67 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 115600, 96)   | Memory: 44.390 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 1764, 96)  | Memory: 1.3547 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:5635.0 Mb
+
++ | 2 * Size:(1, 136900, 96)      | Memory: 105.13 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 2116, 96)     | Memory: 1.6250 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 136900, 2116) | Memory: 1158.7 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 136900, 96)   | Memory: 52.569 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 2116, 96)        | Memory: 0.8125 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 2116, 96)  | Memory: 1.6250 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 136900, 96)      | Memory: 52.569 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:7956.6 Mb
+
++ | 1 * Size:(1, 160000, 96)      | Memory: 61.44 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 136900, 96)      | Memory: 52.569 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 115600, 96)      | Memory: 44.390 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 136900, 96)      | Memory: 105.13 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 2116, 96)     | Memory: 1.6250 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 136900, 2116) | Memory: 1158.7 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 136900, 96)   | Memory: 52.569 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 2116, 96)        | Memory: 0.8125 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 2116, 96)  | Memory: 1.6250 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:7956.6 Mb
+
++ | 2 * Size:(1, 1, 2500, 96)     | Memory: 1.92 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 160000, 2500) | Memory: 1600.0 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 2500, 96)        | Memory: 0.96 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 160000, 96)      | Memory: 122.88 M | <class 'torch.Tensor'>
++ | 1 * Size:(2, 1, 1, 2500, 96)  | Memory: 1.92 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 160000, 96)   | Memory: 61.44 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 160000, 96)      | Memory: 61.44 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:11156.8Mb
+
++ | 1 * Size:(1, 160000, 96)      | Memory: 61.44 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 184900, 96)      | Memory: 71.001 M | <class 'torch.Tensor'>
+- | 2 * Size:(1, 1, 2500, 96)     | Memory: 1.92 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 160000, 2500) | Memory: 1600.0 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 2500, 96)        | Memory: 0.96 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 160000, 96)      | Memory: 122.88 M | <class 'torch.Tensor'> 
+- | 1 * Size:(2, 1, 1, 2500, 96)  | Memory: 1.92 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 136900, 96)      | Memory: 52.569 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 160000, 96)   | Memory: 61.44 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:11156.8Mb
+
++ | 1 * Size:(2, 1, 1, 2809, 96)  | Memory: 2.1573 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 1, 2809, 96)     | Memory: 2.1573 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 2809, 96)        | Memory: 1.0786 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 184900, 2809) | Memory: 2077.5 M | <class 'torch.Tensor'>
++ | 2 * Size:(1, 184900, 96)      | Memory: 142.00 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 1, 184900, 96)   | Memory: 71.001 M | <class 'torch.Tensor'>
+- | 1 * Size:(1, 184900, 96)      | Memory: 71.001 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:9087.0 Mb
+
++ | 1 * Size:(1, 211600, 96)      | Memory: 81.254 M | <class 'torch.Tensor'>
++ | 1 * Size:(1, 184900, 96)      | Memory: 71.001 M | <class 'torch.Tensor'>
+- | 1 * Size:(2, 1, 1, 2809, 96)  | Memory: 2.1573 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 1, 2809, 96)     | Memory: 2.1573 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 2809, 96)        | Memory: 1.0786 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 184900, 2809) | Memory: 2077.5 M | <class 'torch.Tensor'> 
+- | 2 * Size:(1, 184900, 96)      | Memory: 142.00 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 160000, 96)      | Memory: 61.44 M | <class 'torch.Tensor'> 
+- | 1 * Size:(1, 1, 184900, 96)   | Memory: 71.001 M | <class 'torch.Tensor'> 
+
+At __main__ __init__: line 191                       Total Used Memory:9087.0 Mb
+
